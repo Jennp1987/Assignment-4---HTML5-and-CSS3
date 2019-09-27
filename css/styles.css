@@ -1,0 +1,141 @@
+*    {
+    margin: 0;
+    padding: 0;
+}
+html  {
+    background-color: #dfe3e6;
+    width: 960px;
+    margin: 10px auto 0 auto; 
+    font-family: Arial, Helvetica, sans-serif ;
+}
+body {
+    font-size: 1em;
+    line-height: 2em;
+    background-color: white;
+    width: 960px;
+}
+nav, body, aside, footer {
+    background-color: white;
+}
+li, p, h1 {
+    margin: 0;
+    padding: 0;
+}
+main {
+     width: 620px;
+     background-color: white;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+img {
+    float: left;
+    padding-left: 10px;
+}
+nav {
+    float: left;
+    width: 780px;
+    height: 135px;
+    margin: 0 10px 0 0;
+}
+nav ul {
+    text-align: right;
+    list-style-type: none;
+    margin-top: 60px;
+    color: #cc1c0d;
+    text-align: right; 
+}
+body > main > nav > ul {
+   padding: 35px 10px 60px 40px;
+}
+ul li {
+    display: inline;
+    padding: 100px 14px 45px 12px;
+    color: #cc1c0d;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul li:hover {
+    color: black;
+}
+header {
+    background-image: url(../images/header.gif);
+    background-position: center;
+    height: 225px;
+    clear: both;
+    margin: 10px;
+}
+h1 {
+    font-size: 16px;
+    color: #cc1c0d;
+    border-image-width: 8px;
+    border: solid 2px #929ca4 ;
+    background: url("../images/icon_checker.gif") ;
+    background-position: center left 5px;
+    background-repeat:no-repeat;
+    background-color: #dfe3e6;
+    padding: 3px 0 3px 19px;
+    border-radius: 10px 0 10px 0;
+    margin-top: 10px; 
+}
+p {
+    margin: 15px 0 15px 0;
+    line-height: 2;
+}
+p.logovprospect {
+    background-image: url("../images/logo_vprospect.gif");
+    background-repeat: no-repeat;
+    height: 36px;
+    width:63px;
+    margin: 25px 20px 20px 0;
+    float: left;
+}
+body > main > article > p:nth-child(3)::first-line {
+    font-weight: bold;
+}
+body > main > article > p.vconvert {
+    background-image: url("../images/logo_vconvert.gif");
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 63px;
+    margin:  8px 20px 60px 0;
+    float: left;
+}
+body > main > article > p:nth-child(5)::first-line {
+    font-weight: bold;
+}
+p.vretain {
+    background-image: url("../images/logo_vretain.gif");
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 63px;
+     margin: 10px 20px 60px 0;
+    float: left;
+}
+body > main > article > p:nth-child(7)::first-line {
+    font-weight: bold;
+}
+section, article {
+    width: 620px;   
+}
+aside {
+    float:right;
+    width:300px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+body > aside > p:nth-child(3) > a{
+    color: #cc1c0d; 
+}
+footer p {
+   font-size: 12px;
+}
+footer{
+    clear: both;
+    text-align: center;
+    color:  #929ca4;
+    border-top: 1px solid #dfe3e6;
+    width: 940px;
+    margin: 0 10px 0 10px;
+    padding-bottom: 1px;    
+}
